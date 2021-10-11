@@ -5,3 +5,6 @@ exit
 runMain Test
 runMain Lab5.Ex1
 exit
+runMain Test
+runMain Lab2.Test
+runMain Lab2.Ex1

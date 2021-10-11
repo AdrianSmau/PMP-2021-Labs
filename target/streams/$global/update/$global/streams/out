@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/CristianSimionescu/Desktop/Teaching/PMP-Template/}FigaroWork...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/adria/Desktop/PMP/PMP-2021-Labs/}FigaroWork...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: figarowork#figarowork_2.12;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -24,7 +24,7 @@
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.cra.figaro#figaro_2.12;latest.release {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.cra.figaro#figaro_2.12;latest.release[0m
 [0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.cra.figaro#figaro_2.12;latest.release[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\CristianSimionescu\.ivy2\local\com.cra.figaro\figaro_2.12\[revision]\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\adria\.ivy2\local\com.cra.figaro\figaro_2.12\[revision]\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.cra.figaro#figaro_2.12;latest.release[0m
 [0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.cra.figaro#figaro_2.12;latest.release[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/cra/figaro/figaro_2.12/[revision]/figaro_2.12-[revision].pom[0m
@@ -6136,19 +6136,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 901ms :: artifacts dl 20ms[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT compile produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT runtime produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT test produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT provided produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT optional produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT compile-internal produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT runtime-internal produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT test-internal produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT plugin produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT sources produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT docs produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT pom produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT scala-tool produced in C:\Users\CristianSimionescu\Desktop\Teaching\PMP-Template\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (901ms resolve - 20ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1814ms :: artifacts dl 36ms[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT compile produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT runtime produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT test produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT provided produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT optional produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT compile-internal produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT runtime-internal produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT test-internal produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT plugin produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT sources produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT docs produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT pom produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for figarowork#figarowork_2.12;0.1-SNAPSHOT scala-tool produced in C:\Users\adria\Desktop\PMP\PMP-2021-Labs\target\scala-2.12\resolution-cache\reports\figarowork-figarowork_2.12-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1814ms resolve - 36ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
