@@ -1,0 +1,11 @@
+Exercitiul 2. Motivul pentru care este imposibil sa avem sunnyToday = true atunci cand avem "Oh no, not again!" in greetingsToday este ca valoarea "Oh no, not again!" se afla pe cea de-a doua ramura a functiei If,
+care este accesata doar atunci cand sunnyToday = false. In mod evident, sunnyToday este mereu false atunci cand avem "Oh no, not again!", deoarece este accesata mereu a doua ramura. Aceste probabilitati s-ar fi schimbat daca "Oh no, not again!" ar fi fost o varianta in ambele ramuri ale If-ului.
+Similar pentru amICheerful, "Oh no, not again!" este o varianta doar pentru atunci cand sideOfBed este false, asadat rezultatele vor fi la fel de polarizate (100% din cazuri, sideOfBed va fi false).
+
+Exercitiul 3a.  Din moment ce val z = x, z ia valoarea variabilei probabiliste x, care este Flip(0.4) (de fapt, putea fi orice fel de flip). Astfel, orice valoare ar lua x in urma Flip-ului, z ia aceeasi valoare, intrucat sunt, in spate, aceeasi variabila.
+Putem privi variabila z ca un "pointer" spre x (cred). Asadar, x===z va fi true mereu (deci, 1.0).
+
+Exercitiul 3b. Desi stim ca atat x, cat si y sunt Flip(0.4), acestea sunt evenimente independente. Aceste Flip-uri se fac independent una de alta. Asadar, x===z va avea loc doar atunci cand valorile Flip-urilor independente sunt aceleasi.
+Probabilitatea ca ambele sa fie true: 0.4 * 0.4 = 0.16. Probabilitatea ca ambele sa fie false: 0.6 * 0.6 = 0.36. In total, probabilitatea va fi 0.16 + 0.36 = 0.52.
+
+Exercitiul 4. Numarul maxim de parametri pe care ii poate primi functia Apply este 5.
