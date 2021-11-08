@@ -9,7 +9,7 @@ import com.cra.figaro.algorithm.factored.VariableElimination
 
 object Ex3 {
   def main(args: Array[String]) {
-    val skillLevelDistribution = continuous.Uniform(0.0, 8 / 13)
+    val skillLevelDistribution = continuous.Uniform(0.0, 8.0 / 13.0)
     val start = 3
     val end = 7
     val rand = new scala.util.Random
@@ -28,14 +28,21 @@ object Ex3 {
         )
     )
 
-	val sumOfHits = Container(generatedHitsPerHole:_*).foldLeft(0)(_ + _).map(_.toInt)
+    val sumOfHits =
+      Container(generatedHitsPerHole: _*).foldLeft(0)(_ + _).map(_.toInt)
 
-	/*def greaterThan80(hitSum: Int) =
+    //println(1 - VariableElimination.probability(sumOfHits, 80))
+
+    skillLevelDistribution.observe(0.1)
+
+    /*def greaterThan80(hitSum: Int) =
       if (hitSum > 80) hitSum else 0
-	sumOfHits.addConstraint(greaterThan80);*/
+    sumOfHits.addConstraint(greaterThan80);*/
 
-	//Instructiunea de mai jos genereaza ZeroTotalUnnormalizedProbabilityException, insa modelul compileaza. Nu pot intreba modelul cerintele exercitiului.
+    val graterThan80Val = Apply(sumOfHits, (sum: Int) => 
+      if(sum > 80) true else false
+    )
 
-	//println(VariableElimination.probability(sumOfHits, 80))
+    println("Probability that the total sum is greater than 80 at skill = 0.1 is: " + VariableElimination.probability(graterThan80Val,true))
   }
 }
