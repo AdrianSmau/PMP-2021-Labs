@@ -37,3 +37,10 @@ runMain Lab5.Ex1
 runMain Lab5.Ex6
 runMain Lab5.Ex1
 runMain Lab5.Ex6
+:q
+quit
+exit;
+quit;
+runMain Lab6.Ex3
+runMain Lab3.Ex7
+runMain Lab6.Ex3
