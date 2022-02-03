@@ -14,6 +14,7 @@ import com.cra.figaro.library.compound.{RichCPD, CPD, OneOf, If, ^^, *}
 import com.cra.figaro.algorithm.factored.VariableElimination
 import com.cra.figaro.algorithm.filtering._
 import com.cra.figaro.algorithm.factored.beliefpropagation.BeliefPropagation
+import com.cra.figaro.algorithm.sampling._
 
 object Ex1 {
   class Autor {
@@ -45,6 +46,12 @@ object Ex1 {
       Constant(0.047)
     }
 
+    val prob = Apply(
+        album.creatorPopularity,
+        album.calitate,
+        (popular: Boolean, qual: String) => getProb(popular, qual)
+      )
+
     val nominalizat = (
       Apply(
         album.creatorPopularity,
@@ -54,6 +61,7 @@ object Ex1 {
       (prob: Double) => Flip(prob)
     )
   }
+
   def main(args: Array[String]) {
     val autors: Array[Autor] = Array.fill(5)(new Autor())
 
@@ -62,8 +70,11 @@ object Ex1 {
     val albums: Array[Album] =
       Array.fill(10)(new Album(autors(rand.nextInt(5))))
 
-    val autor = new Autor()
-    val album = new Album(autor)
-    val nominalizare = new Nominalizare(album)
+    val nominalizari: Array[Nominalizare] = Array.tabulate(10)((iteration: Int) => new Nominalizare(albums(iteration)))
+
+    val algoritm = MetropolisHastings(100000, ProposalScheme.default, nominalizari(0).prob)
+    algoritm.start()
+    //println("Probabilitatea medie ca primul album sa fie nominalizat este: " + algoritm.mean(nominalizari(0).prob))
+
   }
 }
