@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20211011144414"/>
+		date="20220203092234"/>
 	<dependencies>
 		<module organisation="com.cra.figaro" name="figaro_2.12">
 			<revision name="5.0.0.0" status="release" pubdate="20170824204812" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.github.com/p2t2/figaro" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
